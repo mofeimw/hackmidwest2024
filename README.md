@@ -14,11 +14,8 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 ## Who's on your team?
 *List the full names,  email address & Github username of your teammates*
 
-1.   **Full Name**  || **fullname@company.com**  (or fullname@school.edu if you're a CS student) || **Github Username**
-2. 
-3.
-4.
-5.
+1. Mofei Wang || mofei.wang@nyu.edu || mofeimw
+2. Katy Nguyen || kgnbzm@umsystem.edu || nguyenkaaty
 
 <br /><br />
 
@@ -38,7 +35,7 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 - [ ]  Pinata AI Challenge
 - [ ]  Pinata Enterprise Challenge
 - [ ]  AWS Bedrock Challenge
-- [ ]  Red Hat | Intel AI Challenge
+- [x]  Red Hat | Intel AI Challenge
 - [ ]  Zoom Challenge
 - [ ]  USDA Challenge
 - [ ]  brAIn Rot Challenge
