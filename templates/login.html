@@ -11,6 +11,7 @@
             </ul>
         {% endif %}
     {% endwith %}
+    <img id="login-logo" src="{{ url_for('static', filename='logo.png') }}">
     <div id="login" class="box">
         <form method="post">
             <input type="text" name="username" placeholder="Username" required><br>
