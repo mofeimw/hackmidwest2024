@@ -150,3 +150,26 @@ form {
     width: 100vw;
     margin: 0;
 }
+
+h3 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: #f3fff8;
+}
+
+.ecomon {
+    color: #f3fff8;
+    font-size: 3rem;
+    background-color: #002c5c;
+    padding: 2rem;
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    border-radius: 50px;
+}
+
+.ecomon img {
+    margin: 0 auto;
+    width: 75vw;
+    border-radius: 50px;
+}

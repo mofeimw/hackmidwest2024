@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style="background-color: #D1BC9A;">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
-    <h2>INVENTORY</h2>
+    <h3>Inventory</h3>
+    <div id="inventory">
+        {% for character in characters %}
+            <div class="ecomon">
+                <img class="sprite" src="{{ url_for('static', filename=character['file']) }}" alt="{{ character['file'] }}">
+                <p>{{ character['about'] }}</p>
+            </div>
+        {% else %}
+            <p>You haven't created any characters yet.</p>
+        {% endfor %}
+    </div>
 </body>
 </html>
