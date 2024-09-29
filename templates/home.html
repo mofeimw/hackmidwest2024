@@ -2,6 +2,15 @@
 <html>
 <body>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
-    <h2>HOME</h2>
+    <img id="logo" src="{{ url_for('static', filename='logo.png') }}">
+    <img id="ecoball" src="{{ url_for('static', filename='ecoball.webp') }}" onclick="window.location.href = '/barcode'">
+    <div id="social">
+        <img id="me" src="{{ url_for('static', filename='icon.webp') }}" onclick="window.location.href = '/inventory'">
+        <div id="friends" onclick="window.location.href = '/leaderboard'">
+            <img src="{{ url_for('static', filename='icon1.webp') }}">
+            <img src="{{ url_for('static', filename='icon2.webp') }}">
+            <img src="{{ url_for('static', filename='icon3.webp') }}">
+        </div>
+    </div>
 </body>
 </html>

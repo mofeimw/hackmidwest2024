@@ -1,3 +1,95 @@
 body {
-    background-color: red;
+    background-color: #D1BC9A;
+    background-image: url("eco.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 100vh;
+    width: 100vw;
+}
+
+input {
+    height: 5rem;
+    font-size: 2rem;
+    padding-left: 2rem;
+    border: 0;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+
+button {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    border: 0;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    padding: 5rem;
+    margin: 0 auto;
+    margin-top: 30vh;
+    width: 60vw;
+}
+
+.box h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#ecoball {
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    top: calc(30%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#logo {
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    top: calc(23%);
+    left: 50%;
+    transform: translateX(-53%);
+}
+
+#me {
+    width: 27vw;
+    height: auto;
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+}
+
+#friends {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 8%;
+    right: 0;
+    padding: 1rem;
+}
+#friends img {
+    width: 13vw;
+    height: auto;
 }

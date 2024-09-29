@@ -88,6 +88,8 @@ def character():
         number = request.form.get('number')
         if number:
             info = get_barcode_info(number)
+            if info == {}:
+                return redirect(url_for('error'))
             print()
             print(info)
         else:
@@ -115,6 +117,18 @@ def get_barcode_info(barcode_number):
     
     print("Debug: Product not found or error occurred")
     return {}
+
+@app.route('/error', methods=['GET'])
+def error():
+    return render_template('error.html')
+
+@app.route('/inventory', methods=['GET'])
+def inventory():
+    return render_template('inventory.html')
+    
+@app.route('/leaderboard', methods=['GET'])
+def leaderboard():
+    return render_template('leaderboard.html')
 
 init_db()
 if __name__ == '__main__':
