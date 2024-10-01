@@ -21,10 +21,11 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 
 
 ## What is the name of your App?
+EcoMon
 
 <br /><br />
 ## What does your app do?
-*Describe in a paragraph or so*
+EcoMon is an innovative app that gamifies recycling by turning everyday products into collectible Pokémon-inspired characters. Users scan a product's barcode, which generates an EcoMon based on the type of item and its size, with the potential for evolution as they recycle more. Each EcoMon has unique abilities, a custom bio, and details about its origin, making the recycling process interactive and fun. Users can also add friends, compare collections, and see how their recycling efforts stack up against others, transforming environmental responsibility into a social and rewarding experience.
 
 <br /><br />
 
